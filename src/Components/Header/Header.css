@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+img {
+    width: 500px;
+}
+#particles-js {
+    /* background: radial-gradient(circle, rgb(61, 0, 0) 0%,
+    rgb(0, 0, 0) 100%); */
+    background : url(../../assets/images/office_laptop-wallpaper-1920x1080.jpg) no-repeat;
+    height: 100vh;
+}
+#welcome {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.typed-text {
+    font-size: 4rem;
+    color: #ffffff;
+  }
+
+.scale-in-center {
+    -webkit-animation: scale-in-center 1.5s cubic-bezier(0.250,
+    0.460, 0.450, 0.940) 1s both;
+    animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460,
+    0.450, 0.940) 1s both;
+}
+
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}

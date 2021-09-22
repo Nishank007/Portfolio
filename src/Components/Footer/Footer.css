@@ -1,0 +1,17 @@
+
+  
+  .a {
+    color: white;
+    font-weight: 500;
+  }
+  
+  .a:hover {
+    text-decoration: none;
+    color:  orange;
+    cursor:pointer;
+  }
+  
+  .p {
+    margin-bottom: 0;
+  }
+  

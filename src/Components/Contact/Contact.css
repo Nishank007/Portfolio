@@ -1,0 +1,12 @@
+.form-group-input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+}
+
+textarea{
+    background: transparent;
+}
